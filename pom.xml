@@ -19,20 +19,18 @@
 		<java.version>1.8</java.version>
 	</properties>
 	
-	<distributionManagement>
+    <distributionManagement>
         <repository>
-        <id>central</id>
-        <name>localhost.localdomain-releases</name>
-        <url>http://192.168.56.10:8081/artifactory/libs-release-local</url>
-	        
-		 	
-        <snapshotRepository>
-        <id>snapshots</id>
-        <name>localhost.localdomain-snapshots</name>
-        <url>http://192.168.56.10:8081/artifactory/libs-snapshot-local</url>
-        </snapshotRepository>
-        </repository>	
-        </distributionManagement>
+             <id>central</id>
+             <name>localhost.localdomain-releases</name>
+             <url>http://192.168.56.10:8081/artifactory/libs-release-local</url>
+        </repository>
+	<snapshotRepository>
+             <id>snapshots</id>
+             <name>localhost.localdomain-snapshots</name>
+             <url>http://192.168.56.10:8081/artifactory/libs-snapshot-local</url>
+        </snapshotRepository>	
+    </distributionManagement>
 		
 
 	<dependencies>
